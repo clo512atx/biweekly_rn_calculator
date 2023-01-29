@@ -57,7 +57,7 @@ def pay():
 #net pay variables for function (SS=6.2 % and mc=1.45%)
 ss= pay() * 0.062 
 mc= pay() * 0.0145
-contribute= int(input("What is the contribution percentage per pay period?"))
+contribute= int(input("What is your 401K contribution percentage per pay period?"))
 retirement= pay()* (contribute/100)
 
 #netpay function
